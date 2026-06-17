@@ -2,7 +2,7 @@
 
 A quest-tracking overlay for **PokeMMO** with a character hub, trainer avatars, native gamepad support (SDL2), progress bars, and a voice narrator.
 
-> **Unofficial fan-made tool** — not affiliated with PokeMMO, Game Freak, or Nintendo.
+> **Unofficial fan-made tool.** Not affiliated with PokeMMO, Game Freak, or Nintendo.
 
 ## Downloads
 
@@ -12,7 +12,7 @@ A quest-tracking overlay for **PokeMMO** with a character hub, trainer avatars, 
 |----------|------|-------|
 | **Windows** | `PokeMMO-QT.exe` | .NET 8 self-contained, x64 |
 | **Linux (Debian/Ubuntu)** | `PokeMMO-Quest-Tracker-Setup.deb` | Recommended installer |
-| **Linux (generic)** | `PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage` | Portable — `chmod +x` then run |
+| **Linux (generic)** | `PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage` | Portable. `chmod +x` then run |
 | **macOS** | `PokeMMO Quest Tracker-MacOS.zip` | Universal (Intel + Apple Silicon) |
 
 ## Quick install
@@ -83,4 +83,4 @@ This repository ships **binaries only** for players.
 ## Disclaimer
 
 Free community tool. PokeMMO and related trademarks belong to their respective owners.  
-Use at your own risk — this tool does not modify the game client.
+Use at your own risk. This tool does not modify the game client.
