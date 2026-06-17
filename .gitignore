@@ -1,10 +1,14 @@
-# Binaires — distribués via GitHub Releases uniquement
+# Binaires (GitHub Releases uniquement)
 *.exe
 *.deb
 *.AppImage
 *.zip
 *.dmg
 *.app/
+
+# Scripts de publication locale
+publish-release.ps1
+RELEASE_NOTES_*.md
 
 # OS / IDE
 .DS_Store
