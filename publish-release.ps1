@@ -21,7 +21,7 @@ Quest overlay for PokeMMO. Windows, Linux (.deb + AppImage), macOS universal.
 - Regional and global progress bars, remastered overlay UI
 
 > Unofficial fan-made tool. Not affiliated with PokeMMO.
-'@ | Set-Content -Path $notesFile -Encoding utf8NoBOM
+'@ | Set-Content -Path $notesFile -Encoding UTF8
 
 $assets = @(
     (Join-Path $root "PokeMMO-QT.exe")
