@@ -1,95 +1,86 @@
-# PokeMMO Quest Tracker — Universal
+# PokeMMO Quest Tracker
 
-Overlay de suivi de quêtes pour **PokeMMO**, avec hub personnages, avatars, navigation manette (SDL2), barres de progression et narrateur vocal.
+A quest-tracking overlay for **PokeMMO** with a character hub, trainer avatars, native gamepad support (SDL2), progress bars, and a voice narrator.
 
-> **Outil fan non officiel** — non affilié à PokeMMO / Game Freak / Nintendo.
+> **Unofficial fan-made tool** — not affiliated with PokeMMO, Game Freak, or Nintendo.
 
----
+## Downloads
 
-## Téléchargements
+**[Latest release (v1.0.4)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)**
 
-**[→ Dernière release (v1.0.4)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)**
-
-| Plateforme | Fichier | Notes |
-|----------|---------|-------|
+| Platform | File | Notes |
+|----------|------|-------|
 | **Windows** | `PokeMMO-QT.exe` | .NET 8 self-contained, x64 |
-| **Linux (Debian/Ubuntu)** | `PokeMMO-Quest-Tracker-Setup.deb` | Installateur `.deb` recommandé |
-| **Linux (générique)** | `PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage` | Portable, chmod +x puis lancer |
+| **Linux (Debian/Ubuntu)** | `PokeMMO-Quest-Tracker-Setup.deb` | Recommended installer |
+| **Linux (generic)** | `PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage` | Portable — `chmod +x` then run |
 | **macOS** | `PokeMMO Quest Tracker-MacOS.zip` | Universal (Intel + Apple Silicon) |
 
----
-
-## Installation rapide
+## Quick install
 
 ### Windows
-1. Télécharger `PokeMMO-QT.exe`
-2. Double-clic pour lancer
-3. Si SmartScreen alerte : *Plus d'infos* → *Exécuter quand même* (binaire non signé)
+
+1. Download `PokeMMO-QT.exe`
+2. Double-click to launch
+3. If SmartScreen warns you: *More info* → *Run anyway* (unsigned binary)
 
 ### Linux (.deb)
+
 ```bash
 sudo apt install ./PokeMMO-Quest-Tracker-Setup.deb
-# ou
+# or
 sudo dpkg -i PokeMMO-Quest-Tracker-Setup.deb && sudo apt -f install
 ```
-Manette : `sudo apt install libsdl2-2.0-0`
+
+Gamepad support: `sudo apt install libsdl2-2.0-0`
 
 ### Linux (AppImage)
+
 ```bash
 chmod +x PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage
 ./PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage
 ```
 
 ### macOS
-1. Dézipper `PokeMMO Quest Tracker-MacOS.zip`
-2. Glisser `PokeMMO Quest Tracker.app` dans Applications
-3. Premier lancement : clic droit → **Ouvrir** (Gatekeeper)
 
----
+1. Unzip `PokeMMO Quest Tracker-MacOS.zip`
+2. Drag `PokeMMO Quest Tracker.app` into Applications
+3. First launch: right-click → **Open** (Gatekeeper)
 
-## Fonctionnalités
+## Features
 
-- Overlay borderless semi-transparent, toujours au-dessus
-- Hub multi-personnages (création, renommage, avatars)
-- Navigation manette native (D-pad, L3+R3 focus, L1/R1 régions)
-- Barres de progression région + globale
-- Narrateur vocal (Edge TTS / voix neurales)
-- FR / EN
+- Borderless semi-transparent overlay, always on top
+- Multi-character hub (create, rename, avatars)
+- Native gamepad navigation (D-pad, L3+R3 focus, L1/R1 regions)
+- Regional and global progress bars
+- Voice narrator (Edge TTS / neural voices)
+- French and English UI
 
----
-
-## Manette (tracker)
+## Gamepad shortcuts (tracker)
 
 | Action | Input |
 |--------|-------|
-| Focus jeu ↔ tracker | `L3 + R3` |
-| Naviguer | D-pad |
-| Cocher quête | `A` / Sud |
-| Région suivante / précédente | `R1` / `L1` |
+| Toggle game ↔ tracker focus | `L3 + R3` |
+| Navigate | D-pad |
+| Check / uncheck quest | `A` / South button |
+| Next / previous region | `R1` / `L1` |
 
----
+## Developer repos
 
-## Dépôts développeur
+This repository ships **binaries only** for players.
 
-Ce repo contient **uniquement les binaires** pour les joueurs.
-
-| Plateforme | Sources (séparées) |
-|----------|-------------------|
+| Platform | Source code |
+|----------|-------------|
 | Windows (WPF) | [PokeMMO-QuestTracker-Remastered](https://github.com/thevesperhouse-hub/PokeMMO-QuestTracker-Remastered) |
 | Linux (Avalonia) | [PokeMMO-QT-Linux](https://github.com/thevesperhouse-hub/PokeMMO-QT-Linux) |
 
----
-
 ## Changelog v1.0.4
 
-- Hub personnages avec avatars et navigation manette
-- Clavier virtuel manette (création / renommage)
-- Port Linux (.deb + AppImage) et macOS universal
-- Narrateur neuronal, binds configurables, UI remasterisée
+- Character hub with avatars and gamepad navigation
+- On-screen gamepad keyboard (create / rename)
+- Linux (.deb + AppImage) and universal macOS builds
+- Neural narrator, configurable binds, remastered UI
 
----
+## Disclaimer
 
-## Licence & disclaimer
-
-Outil communautaire gratuit. PokeMMO est une propriété de leurs détenteurs respectifs.  
-Utilisez à vos risques ; ne modifie pas le client du jeu.
+Free community tool. PokeMMO and related trademarks belong to their respective owners.  
+Use at your own risk — this tool does not modify the game client.
