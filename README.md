@@ -14,9 +14,10 @@ Track quests, manage trainers, pick avatars, and play from your couch with **nat
 <br>
 
 [![PokeMMO](https://img.shields.io/badge/PokeMMO-Quest%20Tracker-E3350D?style=for-the-badge)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal)
-[![Windows](https://img.shields.io/badge/Windows-x64-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
-[![Linux](https://img.shields.io/badge/Linux-.deb%20%7C%20AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-Universal-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-x64-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-QT.exe)
+[![Linux .deb](https://img.shields.io/badge/Linux-.deb-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-Setup.deb)
+[![Linux AppImage](https://img.shields.io/badge/Linux-AppImage-2ECC71?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage)
+[![macOS](https://img.shields.io/badge/macOS-Universal-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip)
 
 <br>
 
@@ -58,16 +59,17 @@ Track quests, manage trainers, pick avatars, and play from your couch with **nat
 
 | Platform | File | Notes |
 |:---------|:-----|:------|
-| 🪟 **Windows** | `PokeMMO-QT.exe` | .NET 8 self-contained, x64 |
-| 🐧 **Linux** (Debian/Ubuntu) | `PokeMMO-Quest-Tracker-Setup.deb` | Recommended installer |
-| 🐧 **Linux** (generic) | `PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage` | Portable. `chmod +x` then run |
-| 🍎 **macOS** | `PokeMMO Quest Tracker-MacOS.zip` | Universal (Intel + Apple Silicon) |
+| 🪟 **Windows** | [`PokeMMO-QT.exe`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-QT.exe) | .NET 8 self-contained, x64 |
+| 🐧 **Linux** (Debian/Ubuntu) | [`PokeMMO-Quest-Tracker-Setup.deb`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-Setup.deb) | Recommended installer |
+| 🐧 **Linux** (generic) | [`PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage) | Portable. `chmod +x` then run |
+| 🍎 **macOS** | [`PokeMMO.Quest.Tracker-MacOS.zip`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip) | Universal (Intel + Apple Silicon) |
 
 <div align="center">
 
-[![Download Windows](https://img.shields.io/badge/Download-Windows%20.exe-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
-[![Download Linux](https://img.shields.io/badge/Download-Linux%20.deb-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
-[![Download macOS](https://img.shields.io/badge/Download-macOS%20.app-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
+[![Download Windows](https://img.shields.io/badge/Download-Windows%20.exe-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-QT.exe)
+[![Download Linux .deb](https://img.shields.io/badge/Download-Linux%20.deb-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-Setup.deb)
+[![Download AppImage](https://img.shields.io/badge/Download-AppImage-2ECC71?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage)
+[![Download macOS](https://img.shields.io/badge/Download-macOS%20.zip-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip)
 
 </div>
 
@@ -76,7 +78,7 @@ Track quests, manage trainers, pick avatars, and play from your couch with **nat
 <details>
 <summary><b>🪟 Windows</b></summary>
 
-1. Download `PokeMMO-QT.exe` from [Releases](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest)
+1. Download [`PokeMMO-QT.exe`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-QT.exe)
 2. Double-click to launch
 3. If SmartScreen warns you: *More info* → *Run anyway* (unsigned binary)
 
@@ -108,7 +110,7 @@ chmod +x PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage
 <details>
 <summary><b>🍎 macOS</b></summary>
 
-1. Unzip `PokeMMO Quest Tracker-MacOS.zip`
+1. Unzip [`PokeMMO.Quest.Tracker-MacOS.zip`](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip)
 2. Drag `PokeMMO Quest Tracker.app` into **Applications**
 3. First launch: right-click → **Open** (Gatekeeper)
 
