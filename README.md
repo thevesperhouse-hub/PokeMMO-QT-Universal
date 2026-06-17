@@ -247,7 +247,7 @@ This repo ships **player binaries only**. Source code lives in separate repos:
 | Platform | Repository |
 |:---------|:-----------|
 | 🪟 Windows (WPF) | [PokeMMO-QuestTracker-Remastered](https://github.com/thevesperhouse-hub/PokeMMO-QuestTracker-Remastered) |
-| 🐧 Linux (Avalonia) | [PokeMMO-QT-Linux](https://github.com/thevesperhouse-hub/PokeMMO-QT-Linux) |
+| 🐧 Linux (Avalonia) | [PokeMMO-QT-Linux-v2](https://github.com/thevesperhouse-hub/PokeMMO-QT-Linux-v2) |
 
 ## Disclaimer
 
