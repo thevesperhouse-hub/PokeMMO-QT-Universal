@@ -213,7 +213,8 @@ PS4/5 · Xbox · Switch Pro · generic pads. No extra tools.
 ## Changelog v1.0.4
 
 <table>
-<tr><td width="80">
+<tr>
+<td valign="top" width="50%">
 
 **✨ New**
 
@@ -225,7 +226,8 @@ PS4/5 · Xbox · Switch Pro · generic pads. No extra tools.
 - Neural narrator (Edge TTS + Piper on Linux)
 - Remastered UI: progress bars, animations, card quests
 
-</td><td width="80">
+</td>
+<td valign="top" width="50%">
 
 **🔧 Improved**
 
@@ -234,7 +236,8 @@ PS4/5 · Xbox · Switch Pro · generic pads. No extra tools.
 - Stable scroll when checking quests
 - Multi-monitor overlay stability
 
-</td></tr>
+</td>
+</tr>
 </table>
 
 ## Developer repos
