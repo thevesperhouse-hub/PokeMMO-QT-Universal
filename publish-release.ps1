@@ -1,33 +1,45 @@
-# Publie la release v1.0.4 sur GitHub (après: gh auth login)
+# Publish v1.0.4 release to GitHub (run: gh auth login first)
 $ErrorActionPreference = "Stop"
 $root = $PSScriptRoot
 
-$notes = @"
+$notesFile = Join-Path $root "RELEASE_NOTES_v1.0.4.md"
+@'
 ## PokeMMO Quest Tracker v1.0.4
 
-Overlay de quêtes pour PokeMMO — Windows, Linux (.deb + AppImage), macOS universal.
+Quest overlay for PokeMMO. Windows, Linux (.deb + AppImage), macOS universal.
 
-### Téléchargements
-- **Windows** : ``PokeMMO-QT.exe``
-- **Linux Debian/Ubuntu** : ``PokeMMO-Quest-Tracker-Setup.deb``
-- **Linux portable** : ``PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage``
-- **macOS** : ``PokeMMO Quest Tracker-MacOS.zip``
+### Downloads
+- **Windows**: PokeMMO-QT.exe
+- **Linux Debian/Ubuntu**: PokeMMO-Quest-Tracker-Setup.deb
+- **Linux portable**: PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage
+- **macOS**: PokeMMO Quest Tracker-MacOS.zip
 
-### Nouveautés
-- Hub personnages, avatars, clavier manette
-- Navigation SDL2 native, narrateur vocal
-- Builds Linux et macOS
+### Highlights
+- Character hub, avatars, on-screen gamepad keyboard
+- Native SDL2 gamepad navigation, configurable binds
+- Neural voice narrator (Edge TTS + Piper fallback on Linux)
+- Regional and global progress bars, remastered overlay UI
 
-> Outil fan non officiel — non affilié à PokeMMO.
-"@
+> Unofficial fan-made tool. Not affiliated with PokeMMO.
+'@ | Set-Content -Path $notesFile -Encoding utf8NoBOM
+
+$assets = @(
+    (Join-Path $root "PokeMMO-QT.exe")
+    (Join-Path $root "PokeMMO-Quest-Tracker-Setup.deb")
+    (Join-Path $root "PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage")
+    (Join-Path $root "PokeMMO Quest Tracker-MacOS.zip")
+)
+
+foreach ($file in $assets) {
+    if (-not (Test-Path -LiteralPath $file)) {
+        throw "Missing file: $file"
+    }
+}
 
 gh release create v1.0.4 `
-  --repo thevesperhouse-hub/PokeMMO-QT-Universal `
-  --title "v1.0.4 — Windows / Linux / macOS" `
-  --notes $notes `
-  "$root\PokeMMO-QT.exe" `
-  "$root\PokeMMO-Quest-Tracker-Setup.deb" `
-  "$root\PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage" `
-  "$root\PokeMMO Quest Tracker-MacOS.zip"
+    --repo thevesperhouse-hub/PokeMMO-QT-Universal `
+    --title "v1.0.4 - Windows / Linux / macOS" `
+    --notes-file $notesFile `
+    @assets
 
-Write-Host "Release publiee: https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/tag/v1.0.4"
+Write-Host 'Release published: https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/tag/v1.0.4'
