@@ -1,0 +1,12 @@
+# Binaires — distribués via GitHub Releases uniquement
+*.exe
+*.deb
+*.AppImage
+*.zip
+*.dmg
+*.app/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
