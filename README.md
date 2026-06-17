@@ -48,6 +48,7 @@ Track quests, manage trainers, pick avatars, and play from your couch with **nat
 ## Table of contents
 
 - [Downloads](#downloads)
+- [Direct links](#direct-links)
 - [Quick install](#quick-install)
 - [Features](#features)
 - [Gamepad shortcuts](#gamepad-shortcuts)
@@ -72,6 +73,19 @@ Track quests, manage trainers, pick avatars, and play from your couch with **nat
 [![Download macOS](https://img.shields.io/badge/Download-macOS%20.zip-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip)
 
 </div>
+
+### Direct links
+
+Copy-paste these in a forum post. Each link downloads **one file** directly (no GitHub page in between).
+
+| Platform | Architecture | Link |
+|:---------|:-------------|:-----|
+| **Windows** | x64 | https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-QT.exe |
+| **Linux** | Debian/Ubuntu `.deb` (x86_64) | https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-Setup.deb |
+| **Linux** | AppImage portable (x86_64) | https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO-Quest-Tracker-1.0.4-x86_64.AppImage |
+| **macOS** | Universal (Intel + Apple Silicon) | https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest/download/PokeMMO.Quest.Tracker-MacOS.zip |
+
+All builds and release notes: https://github.com/thevesperhouse-hub/PokeMMO-QT-Universal/releases/latest
 
 ## Quick install
 
